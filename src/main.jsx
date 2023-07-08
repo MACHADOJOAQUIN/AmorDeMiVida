@@ -16,7 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </label>
     </div>
     <audio  autoPlay muted  loop id='audio'>
-      <source src="morat.mp3" type="audio/mpeg"/>
+    <source src="morat.mp3" type="audio/mpeg"/>
+    <source src="morat.ogg" type="audio/ogg"/>
     </audio>
     <App />
   </React.StrictMode>,

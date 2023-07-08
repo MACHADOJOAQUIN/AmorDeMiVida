@@ -1,7 +1,7 @@
 import FisrtCard from "./componentes/FirstCard"
 function App() {
   return (
-    <div className='flex flex-col justify-center items-center gap-[7vh] p-[7vh] font-dancing text-crema '>
+    <div className='flex flex-col justify-center items-center gap-[7vh] py-[7vh] font-dancing text-crema '>
 
     <FisrtCard image='nosotros4'
       title='Mi amor'
