@@ -1,7 +1,7 @@
 import FisrtCard from "./componentes/FirstCard"
 function App() {
   return (
-    <div className='flex flex-col justify-center items-center gap-[7vh] py-[7vh] font-dancing text-crema '>
+    <div className='flex flex-col justify-center items-center gap-[5vh] py-[5vh] font-dancing text-crema '>
 
     <FisrtCard image='nosotros4'
       title='Mi amor'
@@ -51,7 +51,7 @@ function App() {
       none1='hidden'
 
     />
-      <FisrtCard image='nosotros1'
+      <FisrtCard image='nosotros3'
       title='Nosotros'
       edit='text-4xl'
       text1='Eres el amor de mi vida, y estoy emocionado por el futuro que construiremos juntos.'

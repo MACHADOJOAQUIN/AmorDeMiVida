@@ -8,7 +8,8 @@ export default {
     extend: {
       boxShadow: {
         'heroHover': '33px 33px 3px #FF78C4, -33px -33px 3px #FFBDF7',
-        'hero':      '10px 10px 1px #FF78C4, -10px -10px 1px #FFBDF7',
+        'hero': '10px 10px 1px #FF78C4, -10px -10px 1px #FFBDF7',
+        'light': '0px 0px 25px 15px #FFBDF7',
       },
       colors: {
         'crema': '#FFECEC',

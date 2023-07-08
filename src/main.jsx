@@ -5,6 +5,10 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+     <audio  autoPlay muted  loop id='audio'>
+      <source src="morat.mp3" type="audio/mpeg"/>
+      <source src="morat.ogg" type="audio/ogg"/>
+    </audio>
     <div className='flex mt-[7vh]'>
       <label className="switch w-[100wh] m-auto" >
         <input type="checkbox"/>
@@ -15,10 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       } className="slider"></span>
       </label>
     </div>
-    <audio  autoPlay muted  loop id='audio'>
-    <source src="morat.mp3" type="audio/mpeg"/>
-    <source src="morat.ogg" type="audio/ogg"/>
-    </audio>
+   
     <App />
   </React.StrictMode>,
 )

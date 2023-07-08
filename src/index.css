@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    background-color: #FFECEC;
+    background-color: #282828;
 }
 /* The switch - the box around the slider */
 .switch {
@@ -52,6 +52,7 @@ body{
    
    input:checked + .slider {
     background-color: #FFBDF7;
+    box-shadow: 0px 0px 25px 10px #FFBDF7;
     border: 1px solid #FFECEC;
    }
    
