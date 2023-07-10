@@ -5,7 +5,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <audio controls muted loop id='audio'>
+     <audio muted loop id='audio'>
       <source src="morat.mp3" type="audio/mpeg"/>
       <source src="morat.ogg" type="audio/ogg"/>
       <source src="morat.wav" type="audio/wav"/>
